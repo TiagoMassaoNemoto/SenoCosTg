@@ -13,17 +13,19 @@ public abstract class absPropriedade implements intMetodos
     public absPropriedade(String numero)
     {
         this.numero = numero;
+        Executar();
     }
     
     public absPropriedade(double n1)
     {
         this.n1 = n1;
+        Executar();
     }
 
     @Override
     public String toString()
     {
-        return this.mensagem ="<html>" + "Seno = " + this.seno
+        return this.resposta ="<html>" + "Seno = " + this.seno
                 + "<br>" + "Cosseno = " + this.cosseno
                 + "<br>" + "Tangente = " + this.tangente + "<html>";
     }

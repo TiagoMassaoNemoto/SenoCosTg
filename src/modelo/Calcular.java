@@ -6,7 +6,6 @@ public class Calcular extends absPropriedade
     public Calcular(double n1)
     {
         super(n1);
-        this.Executar();
     }
     
     public void Executar()

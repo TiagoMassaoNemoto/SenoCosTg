@@ -6,7 +6,6 @@ public class Validacao extends absPropriedade
     public Validacao(String numero)
     {
         super(numero);
-        this.Executar();
     }
 
     public void Executar()

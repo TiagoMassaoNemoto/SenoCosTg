@@ -6,7 +6,6 @@ public class Controle extends absPropriedade
     public Controle(String numero)
     {
         super(numero);
-        this.Executar();
     }
 
     public void Executar()
